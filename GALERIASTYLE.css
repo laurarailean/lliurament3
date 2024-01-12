@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+}
+
+#header{
+    background-image: url(Fotos/foto\ header\ millor.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.5;
+    height: 200px; 
+    margin: 10px;
+    width: auto;
+    padding: 25px;
+    display: flex;
+
+}
+
+#contingutHeader{
+    color: #21bd36;
+    font-size: 2.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+section > nav > ul > li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+
+#llistaNav {
+    place-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: #2E933C;
+    border-top: solid 3px #297045;
+    border-bottom: solid 3px #297045;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#llistaNav li{
+    display: flex;
+}
+
+section{
+    transition: transform 0.3s ease;
+}
+
+section:hover{
+    box-shadow: black 0 5px 5px;
+    transform: scale(1.01);
+}
+
+section > nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+section > nav > ul > li > a:hover{
+    color: #81C14B;
+}
+
+body{
+    background-color: #524632;
+}
+
+#botoGaleria{
+    background-color: #359d5e;
+}
+
+
+
+
+#container{
+    margin: auto;
+    width: 80%;
+    background-color: #7b694c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    padding: 10px;
+}
+
+#flors{ 
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+
+    border: solid 1px #333;
+
+    border-radius: 20px;
+    background-color: #249733; 
+
+    zoom: 80%;
+}
+
+#quadratFlors{
+
+    display: grid;
+
+    column-gap: 10px;
+    row-gap: 15px;
+
+    justify-content: center;
+
+}
+
+#fila{
+    display: flex;
+    justify-content: center;
+    column-gap: 2vw;
+
+    width: 50vw;
+    height: 20vh;
+
+}
+
+#imgINom:hover {
+    transform: rotateY(-180deg);
+}
+
+#fila section{
+    flex-shrink: 0;
+    width: 45%;
+    height: 90%;
+}
+
+
+#imgINom{
+    
+    background-color: #297045;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 2px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+
+}
+
+
+#davant{
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 5vmin;
+
+    width: 100%;
+    height: 100%;
+}
+
+#darrere{
+    transform-origin: center;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+#fotoFlor{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+@media (max-width: 480px) {
+    footer > div > a > img{
+        max-width: 20px;
+        max-height: 20px;
+        border-radius: 30%;
+} 
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+#treballa{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#columnaXarxes{
+    color: white;
+}
+
+#columnaContacte{
+    color: white;
+}
+
+footer > div > a > img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 550px) {
+    section > nav > ul > li{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 0.9em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}

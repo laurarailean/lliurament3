@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+}
+
+#header{
+    background-image: url(Fotos/foto\ header\ millor.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.5;
+    height: 200px; 
+    margin: 10px;
+    width: auto;
+    padding: 25px;
+    display: flex;
+
+}
+
+#contingutHeader{
+    color: #21bd36;
+    font-size: 2.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (width: 400px) {
+    #contingutHeader{
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+/* LLISTES NAV I ASIDE*/
+section > nav > ul > li{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+
+
+
+
+
+#llistaNav {
+    place-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: #2E933C;
+    border-top: solid 3px #297045;
+    border-bottom: solid 3px #297045;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#llistaNav li{
+    display: flex;
+}
+
+section{
+    transition: transform 0.3s ease;
+}
+
+section:hover{
+    box-shadow: black 0 5px 5px;
+    transform: scale(1.01);
+}
+
+section > nav > ul > li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+section > nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+section > nav > ul > li > a:hover{
+    color: #81C14B;
+}
+
+body{
+    background-color: #524632;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+@media (max-width: 480px) {
+    footer > div > a > img{
+        max-width: 20px;
+        max-height: 20px;
+        border-radius: 30%;
+} 
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+#treballa{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#columnaXarxes{
+    color: white;
+}
+
+#columnaContacte{
+    color: white;
+}
+
+
+footer > div > a > img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 30%;
+}
+

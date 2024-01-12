@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+}
+
+#header {
+    background-image: url(Fotos/foto\ header\ millor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    height: 200px;
+    margin: 10px;
+    width: auto;
+    padding: 25px;
+    display: flex;
+
+}
+
+#contingutHeader {
+    color: #21bd36;
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+/* LLISTES NAV I ASIDE*/
+section>nav>ul>li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+#botoBotiga {
+    background-color: #359d5e;
+}
+
+#llistaNav {
+    place-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: #2E933C;
+    border-top: solid 3px #297045;
+    border-bottom: solid 3px #297045;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#llistaNav li {
+    display: flex;
+}
+
+section {
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    box-shadow: black 0 5px 5px;
+    transform: scale(1.01);
+}
+
+section>nav>ul>li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+section>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+section>nav>ul>li>a:hover {
+    color: #81C14B;
+}
+
+body {
+    background-color: #524632;
+}
+
+#container {
+    display: flex;
+    margin-top: 30px;
+    padding-top: 10px;
+    display: grid;
+    margin: auto;
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+/*ASIDE*/
+
+
+
+#llistaAside {
+    border: solid 2px;
+    border-radius: 20px;
+    background-color: #81C14B;
+}
+
+#asideLlistaProd {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+aside>ul>li {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside>ul>li:hover {
+    text-decoration: underline;
+}
+
+aside>ul>li>a {
+    text-decoration: none;
+    color: rgb(0, 0, 49);
+}
+
+
+
+
+
+
+
+
+
+/*PROD1*/
+
+#prodHot1 {
+    background-color: #297045;
+    border: solid 2px #153723;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#preu {
+    color: white;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+#prodHot1>* {
+    padding-left: 10px;
+}
+
+#poquesUnis {
+    color: rgb(255, 111, 0);
+}
+
+#FotoSoplaHojas {
+    max-width: 310px;
+    max-height: 240px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#pDePropietats {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+#llistaPropietatsBufafulles {
+    padding-left: 20px;
+}
+
+#botoCompra {
+    background-color: rgb(216, 140, 0);
+    font-weight: bolder;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    width: 150px;
+    height: 50px;
+
+    position: static;
+
+}
+
+#asideIContingut {
+    display: flex;
+    flex-direction: row;
+}
+
+#preuIBoto {
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+
+}
+
+#preuIBoto2 {
+    display: flex;
+    padding: 10px;
+
+    margin-left: 45%;
+    margin-right: 10%;
+
+}
+
+#linkBotoCompra {
+    text-decoration: none;
+    color: black;
+}
+
+#bufafullesNom{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+
+
+
+/*PROD POPULAR*/
+
+#prodHot2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #297045;
+    border: solid 2px #153723;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#popular {
+    color: rgb(205, 157, 0);
+    padding-left: 10px;
+}
+
+#fotoLlavorMaduixa {
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#fotoIPropietats {
+    display: flex;
+    background-color: rgb(63, 140, 50);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#treballa {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#columnaXarxes {
+    color: white;
+}
+
+#columnaContacte {
+    color: white;
+}
+
+
+footer>div>a>img {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 30%;
+}
+
+
+
+
+@media all and (max-width: 550px) {
+    section>nav>ul>li {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 0.9em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #botoCompra {
+        background-color: rgb(216, 140, 0);
+        font-weight: bolder;
+    
+        color: white;
+
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+        display: flex;
+        font-size: 16px;
+
+        cursor: pointer;
+    
+        width: 120px;
+        height: 40px; 
+    }
+
+}
+
+@media all and (max-width: 870px) {
+    #preuIBoto {
+        display: flex;
+        flex: wrap;
+        padding: 10px;
+        justify-content: left;
+    
+    }
+    
+    #preuIBoto2 {
+        display: flex;
+        flex: wrap;
+        padding: 10px;
+        margin-left: 9%;
+        margin-right: 10%;
+    }
+
+    #bufafullesNom{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    #FotoSoplaHojas {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+    }
+
+    #fotoIPropietats {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
